@@ -1,7 +1,15 @@
-streamlit==1.34.0
-pandas==2.2.2
-numpy==1.23.5
-scikit-learn==1.2.2
-xgboost==1.7.6
-joblib==1.2.0
-altair==5.3.0
+streamlit==1.37.1              # Same as working file
+pandas==2.2.2                  # OK
+numpy==2.0.1                   # Updated for compatibility
+scikit-learn==1.5.1            # Updated for compatibility
+xgboost==1.7.6                 # Keep, assuming needed
+joblib==1.4.2                  # Matches working file
+altair==5.3.0                  # OK
+
+# Dependencies needed by streamlit (seen in working file)
+protobuf==5.27.3
+pyarrow==17.0.0
+watchdog==4.0.1
+requests==2.32.3
+pillow==10.4.0
+tenacity==8.5.0
