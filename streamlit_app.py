@@ -6,7 +6,8 @@ import joblib  # for loading your saved model
 best_rf_model = joblib.load("best_xgb_model.joblib")
 
 # --- Load training features to get default mean values ---
-X_train = pd.read_csv("X_train.csv")  # Make sure this file contains the exact training features
+X_train_url = "https://drive.google.com/file/d/1yjM1opg0s9Lg6xlblx828o2xkaRbvou1/view?usp=sharing"
+X_train = pd.read_csv(X_train_url)  # Make sure this file contains the exact training features
 
 # --- Define top 10 features to take manual input ---
 top_features = ['nitrogen', 'srad_min', 'srad_median', 'srad_mean',
