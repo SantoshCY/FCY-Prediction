@@ -2,7 +2,7 @@ streamlit==1.37.1              # Same as working file
 pandas==2.2.2                  # OK
 numpy==2.0.1                   # Updated for compatibility
 scikit-learn==1.5.1            # Updated for compatibility
-xgboost==1.7.6                 # Keep, assuming needed
+xgboost==1.6.2               # Keep, assuming needed
 joblib==1.4.2                  # Matches working file
 altair==5.3.0                  # OK
 
